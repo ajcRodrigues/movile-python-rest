@@ -1,7 +1,20 @@
 # Movile Rest API
-## Biblioteca Python para API Movile Messaging
+## Python library for Movile Messaging API
 
 ###### Usage
+
+```py
+import movile
+api = movile.config(token=MOVILE_API_TOKEN, user_name=MOVILE_USER_NAME)
+sms_id = movile.SmsService().send('cellphone_number', 'message')
+```
+
+
+## Instalation
+
+Execute the setup script using pip:
+  $ cd movile-python-rest
+  $ pip3 install -r requirements.txt
 
 
 ## Author
