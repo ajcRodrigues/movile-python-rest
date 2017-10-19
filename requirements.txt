@@ -1,0 +1,2 @@
+jsonpickle==0.9.5
+requests==2.18.4
